@@ -1,0 +1,89 @@
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Topbar Styles */
+.topbar {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+.topbar .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.topbar .contact-info a {
+    text-decoration: none;
+    color: #000000;
+    margin-right: 10px;
+}
+
+.topbar .contact-info span {
+    margin-right: 10px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: rgb(128, 219, 128);
+    padding: 5px 0; /* Réduire la hauteur de la barre de navigation */
+    color: #ffffff;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo img {
+    max-height: 40px; /* Ajustez la taille du logo selon vos besoins */
+}
+
+.navbar nav {
+    display: flex;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 15px;
+    display: inline-block; /* Aligner les éléments de la liste en ligne */
+}/* Header Styles */
+.header {
+    position: relative;
+    overflow: hidden;
+    background-color: #E1F0DA;
+    color: #ffffff;
+    padding: 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    width: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+.carousel-inner img {
+    width: 80%;
+    max-height: 450px; /* Ajustez la hauteur maximale des images du carousel */
+    object-fit: cover;
+}
+
+.header-left, .btn {
+    display: none;
+}
